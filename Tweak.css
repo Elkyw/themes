@@ -214,11 +214,11 @@ h1[class*=title_],
 }
 
 /* member list */
-[class*=members_] {
+[class*=membersWrap_]>[class*=members_] {
     width: 260px;
 }
 
-[class*=member_] {
+[aria-label="Members"]>[class*=member_] {
     max-width: unset;
 }
 
