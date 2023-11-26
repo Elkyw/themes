@@ -10,6 +10,20 @@
     zoom: 200%;
 }
 
+/* big stream */
+[class*=pictureInPictureVideo_] {
+    width: 640px;
+    height: 360px;
+}
+
+[class*=streamPreview_]:not([class*=content_]) {
+    width: 504px;
+}
+
+[class*=previewContainer_] {
+    height: 284px;
+}
+
 /* channel indicator */
 :root {
     --i-width: 2px;
