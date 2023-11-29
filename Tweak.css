@@ -3,27 +3,6 @@
     --font-display: Inter;
 }
 
-/* big reaction */
-[id*="message-reactions"]>div>div>div>div>.emoji,
-[id*="message-reactions"]>div>div>div>[class*=reactionCount_],
-[class*=effectsWrapper_] {
-    zoom: 200%;
-}
-
-/* big stream */
-[class*=pictureInPictureVideo_] {
-    width: 640px;
-    height: 360px;
-}
-
-[class*=streamPreview_]:not([class*=content_]) {
-    width: 504px;
-}
-
-[class*=previewContainer_] {
-    height: 284px;
-}
-
 /* channel indicator */
 :root {
     --i-width: 2px;
@@ -154,7 +133,7 @@
     background: transparent;
 }
 
-/* channel width */
+/* channel list */
 [class*=content_]>[class*=sidebar_],
 [class*=bannerImage_],
 [class*=bannerImg_] {
@@ -197,6 +176,12 @@ h1[class*=title_],
     opacity: 1;
 }
 
+/* embed */
+[class*=embedFull_],
+[class*=gridContainer_] {
+    max-width: fit-content !important;
+}
+
 /* friend list username */
 [class*=discriminator_] {
     visibility: visible;
@@ -237,6 +222,27 @@ h1[class*=title_],
 /* search bar */
 [class*=toolbar_]>[class*=search_] {
     order: -1;
+}
+
+/* stream */
+[class*=pictureInPictureVideo_] {
+    width: 640px;
+    height: 360px;
+}
+
+[class*=streamPreview_]:not([class*=content_]) {
+    width: 504px;
+}
+
+[class*=previewContainer_] {
+    height: 284px;
+}
+
+/* reaction */
+[id*="message-reactions"]>div>div>div>div>.emoji,
+[id*="message-reactions"]>div>div>div>[class*=reactionCount_],
+[class*=effectsWrapper_] {
+    zoom: 200%;
 }
 
 /* windows title bar */
