@@ -213,6 +213,13 @@ h1[class*=title_],
     }
 }
 
+/* message */
+@media (width < 600px) {
+    [class*=message_] {
+        padding-right: 0 !important;
+    }
+}
+
 /* open chat button */
 [aria-label="Open Chat"] {
     display: flex;
