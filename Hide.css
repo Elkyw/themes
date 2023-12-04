@@ -80,6 +80,18 @@
     display: none !important;
 }
 
+/* avatar decoration hint */
+[class*=avatarDecorationHint_] {
+    top: 0;
+    left: 0;
+}
+
+[class*=avatarDecorationHint_]>foreignObject {
+    mask: url(#svg-mask-avatar-status-round-80);
+    width: 80px;
+    height: 80px;
+}
+
 /* channel scroller height fix */
 [aria-label="Channels"] {
     height: unset !important;
