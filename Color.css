@@ -15,3 +15,10 @@
     --scrollbar-auto-track: transparent;
     --scrollbar-thin-thumb: var(--primary-530);
 }
+
+/* channel & role */
+[class*=chat_]>[class*=header_],
+[class*=chat_]>[class*=header_]+[class*=content_],
+[class*=chat_]>[class*=header_]+[class*=content_]>[class*=chat_] {
+    background-color: var(--background-primary);
+}
