@@ -147,12 +147,9 @@
 @media (width < 600px) {
 
     [class*=content_]>[class*=sidebar_],
-    [aria-label="Channel header"]>div>[class*=toolbar_] {
-        display: none;
-    }
-
+    [aria-label="Channel header"]>div>[class*=toolbar_],
     [aria-label="Servers sidebar"] {
-        width: 5px;
+        display: none;
     }
 }
 
