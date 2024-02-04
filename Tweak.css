@@ -242,7 +242,7 @@ h1[class*=title_],
     height: 284px;
 }
 
-/* reaction */
+/* reaction *
 [id*="message-reactions"]>div>div>div>div>.emoji,
 [id*="message-reactions"]>div>div>div>[class*=reactionCount_],
 [class*=effectsWrapper_] {
