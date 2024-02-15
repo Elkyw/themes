@@ -3,6 +3,11 @@
     --font-display: Inter;
 }
 
+/* bot option drop down */
+[class*=popout_][style*=max-height]:has(+[class*=measurement_]) {
+    max-height: none !important;
+}
+
 /* channel indicator */
 :root {
     --i-width: 2px;
