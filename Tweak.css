@@ -198,6 +198,7 @@ h1[class*=title_],
 /* loading screen */
 [class*=fixClipping_] {
     background: transparent;
+    pointer-events: none;
 }
 
 /* member list */
