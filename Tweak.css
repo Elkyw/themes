@@ -5,7 +5,7 @@
 
 /* bot option drop down */
 [class*=popout_][style*=max-height]:has(+[class*=measurement_]) {
-    max-height: none !important;
+    max-height: 100vh !important;
 }
 
 /* channel indicator */
