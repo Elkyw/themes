@@ -30,8 +30,6 @@
 
 [aria-label="Channels"]>[aria-label$="perks!"],
 
-.messagelogger-edited,
-
 [class*=threadSuggestionBar_],
 [class*=popout_]:has(>[class*=more_]),
 
