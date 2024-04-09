@@ -1,6 +1,7 @@
 :root {
     --font-primary: Inter;
     --font-display: Inter;
+    --font-code: Consolas;
 }
 
 /* bot option drop down */
