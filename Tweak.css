@@ -230,12 +230,6 @@ h1[class*=title_],
     order: 1;
 }
 
-/* scrollbar fix */
-* {
-    scrollbar-width: unset !important;
-    scrollbar-color: unset !important;
-}
-
 /* search bar */
 [class*=toolbar_]>[class*=search_] {
     order: -1;
