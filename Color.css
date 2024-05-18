@@ -1,6 +1,6 @@
 .theme-dark {
     --background-modifier-accent: hsl(var(--primary-600-hsl) / 0.48);
-    --background-primary: var(--primary-700);
+    --background-primary: #ffd1e7;
     --background-secondary: var(--primary-730);
     --background-secondary-alt: var(--primary-760);
     --background-tertiary: var(--primary-800);
